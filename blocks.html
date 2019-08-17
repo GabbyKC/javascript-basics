@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Block Builder</title>
+        <link rel="stylesheet" href="blocks.css">
+    </head>
+    <body>
+
+        <div class="shapes-container">
+            <div class="spacing">
+                <select id="background" name="cssProp">
+                    <option selected disabled>Pick Colour</option>
+                    <option value="Green">Green</option>
+                    <option value="Yellow">Yellow</option>
+                    <option value="Red">Red</option>
+                </select>
+
+                <select id="width" name="cssProp">
+                    <option selected disabled>Pick Width</option>
+                    <option value="100px">100px</option>
+                    <option value="200px">200px</option>
+                    <option value="300px">300px</option>
+                </select>
+
+                <select id="height" name="cssProp">
+                    <option selected disabled>Pick Height</option>
+                    <option value="100px">100px</option>
+                    <option value="200px">200px</option>
+                    <option value="300px">300px</option>
+                </select>
+
+                <select id="border" name="cssProp">
+                    <option selected disabled>Pick Border</option>
+                    <option value="2px solid black">2px Solid Black</option>
+                    <option value="4px solid black">4px Solid Black</option>
+                    <option value="6px solid black">6px Solid Black</option>
+                </select>
+
+                 <button id="apply">Apply</button>
+                <hr>
+                <div class="block" id="modify" style ="width: 400px; height: 400px; background-color: #85549f;"></div>
+            </div>
+
+            <div class="spacing">
+                <select class="background" name="cssProp1">
+                    <option selected disabled>Pick Colour</option>
+                    <option value="Green">Green</option>
+                    <option value="Yellow">Yellow</option>
+                    <option value="Red">Red</option>
+                </select>
+
+                <select class="width" name="cssProp1">
+                    <option selected disabled>Pick Width</option>
+                    <option value="100px">100px</option>
+                    <option value="200px">200px</option>
+                    <option value="300px">300px</option>
+                </select>
+
+                <select class="height" name="cssProp1">
+                    <option selected disabled>Pick Height</option>
+                    <option value="100px">100px</option>
+                    <option value="200px">200px</option>
+                    <option value="300px">300px</option>
+                </select>
+
+                 <button id="set">Apply</button>
+                <hr>
+                <div class="cirlce" id="modifyCircle" style ="width: 400px; height: 400px; background-color: #85549f;"></div>
+            </div>
+        </div>
+
+        <script src="blocks.js"></script>
+    </body>
+</html>
